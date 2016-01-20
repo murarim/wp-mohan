@@ -39,7 +39,7 @@
 	<div class="site-inner">
 		<header id="masthead" class="site-header" role="banner">
 			<div class="site-header-main">
-				<div class="site-branding">
+				<div class="site-branding container">
 					<?php if ( is_front_page() && is_home() ) : ?>
 						<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 					<?php else : ?>
